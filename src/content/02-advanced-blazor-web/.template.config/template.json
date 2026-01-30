@@ -1,8 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Marvin Klein",
-  "classifications": [ "Console" ],
+  "classifications": [ "Web", "Blazor" ],
   "name": "Advanced Blazor Web App",
+  "defaultName": "BlazorApp",
+  "description": "A project template for creating a Blazor web app with global server interactivity and two factor authentification without Identity.",
   "identity": "MarvinKlein.Templates.CSharp",
   "groupIdentity": "MarvinKlein.Templates",
   "shortName": "mk_advanced_blazor", // You can create the project using this short name instead of the one above.
