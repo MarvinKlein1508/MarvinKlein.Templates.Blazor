@@ -1,0 +1,21 @@
+﻿@page "/Account/TwoFactorAuthentication"
+@inherits AppPageBase
+
+<h3>Zwei-Faktor-Authentifizierung (2FA)</h3>
+
+@if (CurrentUser is null)
+{
+	return;
+}
+
+@if (CurrentUser.TwoFactorEnabled)
+{
+	<p>Zwei-Faktor-Authentifizierung ist aktiv!</p>
+}
+else
+{
+	<EnableTwoFactorAuthentication User="CurrentUser" />
+}
+
+
+

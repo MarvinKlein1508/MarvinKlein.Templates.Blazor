@@ -1,0 +1,17 @@
+﻿<FluentNav Style="padding-top:10px; height: 100%;"
+		   UseSingleExpanded="false"
+		   Density="@NavDensity.Medium">
+
+	<FluentNavItem Href="/"
+				   Match="NavLinkMatch.All"
+				   IconRest="@(new Icons.Regular.Size20.Home())"
+				   IconActive="@(new Icons.Filled.Size20.Home())">
+		Home
+	</FluentNavItem>
+
+	<FluentNavCategory Title="Account" IconRest="@(new Icons.Regular.Size20.Person())" IconActive="@(new Icons.Filled.Size20.Person())">
+		<FluentNavItem Href="/Account/Manage" Match="NavLinkMatch.All">Details</FluentNavItem>
+		<FluentNavItem Href="/Account/Logout">Abmelden</FluentNavItem>
+	</FluentNavCategory>
+
+</FluentNav>

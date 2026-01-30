@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Marvin Klein",
+  "classifications": [ "Console" ],
+  "name": "Advanced Blazor Web App",
+  "identity": "MarvinKlein.Templates.CSharp",
+  "groupIdentity": "MarvinKlein.Templates",
+  "shortName": "mk_advanced_blazor", // You can create the project using this short name instead of the one above.
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MyProject",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net10.0",
+          "displayName": ".NET 10.0 (Long Term Support)"
+        }
+      ],
+      "replaces": "net10.0",
+      "defaultValue": "net10.0"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "include": "MyProject.Infrastructure/**/*"
+        },
+        {
+          "include": "MyProject/**/*"
+        }
+      ]
+    }
+  ]
+}
