@@ -5,8 +5,11 @@
   "name": "Advanced Blazor Web App",
   "defaultName": "BlazorApp",
   "description": "A project template for creating a Blazor web app with global server interactivity and two factor authentification without Identity.",
-  "identity": "MarvinKlein.Templates.CSharp",
-  "groupIdentity": "MarvinKlein.Templates",
+  "identity": "MarvinKlein.Templates.Blazor.CSharp.10.0",
+  "groupIdentity": "MarvinKlein.Templates.Blazor.Advanced",
+  "guids": [
+    "21A7695E-982D-4D15-9FE3-217817CE2E01"
+  ],
   "shortName": "mk_advanced_blazor", // You can create the project using this short name instead of the one above.
   "tags": {
     "language": "C#",
